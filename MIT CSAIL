@@ -1,0 +1,20 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audrey Garon</title> 
+    <link rel="stylesheet" href="https://use.typekit.net/nfa3krv.css">
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+   <div class="centered"> 
+       <h1>Audrey Garon</h1>
+    </div>
+    <div class="menu">
+        <a href="index.html">Organic Robotics Lab</a>
+        <a href="mit.html">MIT CSAIL</a>
+        <a href="centerless.html">Boston Centerless</a>
+        <a href="project.html">Open Design Project</a>
+        <a class="current" href="about.html">MIT CSAIL</a>
+    </div>
+</body>
+</html>

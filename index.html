@@ -4,6 +4,26 @@
     <title>Audrey Garon</title> 
     <link rel="stylesheet" href="https://use.typekit.net/nfa3krv.css">
     <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <style>
+        .profile-section {
+            display: flex;
+            align-items: flex-start; /* aligns top of image with top of text */
+            max-width: 150px;
+            margin: 40px auto;
+            gap: 20px; /* space between image and text */
+        }
+            
+        .profile-section img {
+            width: 512px;   /* control image width */
+            object-fit: cover;
+            overflow: hidden;
+            border-radius: 8px; /* optional: rounded corners */
+        }
+            
+        .profile-text {
+            flex: 1; /* let the text take remaining space */
+        }
+    </style>    
 </head>
 <body>
    <div class="centered"> 
@@ -17,28 +37,6 @@
         <a href="about.html">About</a>
         
     </div>
-
-    <style>
-        .profile-section {
-            display: flex;
-            align-items: flex-start; /* aligns top of image with top of text */
-            max-width: 150px;
-            margin: 40px auto;
-            gap: 20px; /* space between image and text */
-            }
-            
-            .profile-section img {
-            width: 512px;   /* control image width */
-            object-fit: cover;
-            overflow: hidden;
-            border-radius: 8px; /* optional: rounded corners */
-            }
-            
-            .profile-text {
-            flex: 1; /* let the text take remaining space */
-            }
-    </style>
-
 </body>
 
 </html>

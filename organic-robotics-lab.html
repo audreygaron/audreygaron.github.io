@@ -1,13 +1,37 @@
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audrey Garon</title>
     <link rel="stylesheet" href="https://use.typekit.net/nfa3krv.css">
     <link href="css/index.css" rel="stylesheet" type="text/css" />
+            <style>
+                .row {
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                }
+                .row .image {
+                    flex: 1 1 0;
+                    max-width: 33.33%;
+                    box-sizing: border-box;
+                    padding: 10px;
+                    text-align: center;
+                }
+                .row img {
+                    width: 100%;
+                    min-height: 150px;
+                }
+                .row label {
+                    display: block;
+                    margin-top: 8px;
+                }
+            </style>
 </head>
+
 <body>
-   <div class="centered">
-       <h1>Audrey Garon</h1>
+    <div class="centered">
+        <h1>Audrey Garon</h1>
     </div>
     <div class="menu">
         <a class="current" href="organic-robotics-lab.html">Organic Robotics Lab</a>
@@ -16,34 +40,39 @@
         <a href="open-design-project.html">Open Design Project</a>
         <a href="about.html">About</a>
     </div>
-    <div class="organic-robotics-lab">
-        <div class="row">
-            <div class="image">
-                <img src="img/robotics-1.jpg" alt="Organic Robotics Lab">
-                <label>The 3D printed fish (from left to right, made of toughclear,
-problack, SIL 30, and problack)<br/>Robotic fish powered by redox flow batteries represent a novel solution for sustainable
-underwater missions, enabling longer and more efficient operations. A key challenge, however,
-is creating a reliable system to manage the intake and discharge of liquid electrolytes. This
-project aims to develop a specialized refueling module for these robotic fish. The system
-features a single motor-driven pump, managed by an Arduino microcontroller, to accurately
-control liquid fuel transfer. It is designed to be buoyant, modular for easy attachment, and
-manufactured using lightweight, customizable 3D printing.</label>
+    <main>
+        <div class="organic-robotics-lab">
+                <div class="image">
+                    <img class="large" src="img/robotics-1.jpg" alt="Organic Robotics Lab">
+                    <label>The 3D printed fish (from left to right, made of toughclear,
+                        problack, SIL 30, and problack)</label>
+                </div>
+            <div>
+                <p class="padded">Robotic fish powered by redox flow batteries represent a
+                    novel solution for sustainable
+                    underwater missions, enabling longer and more efficient operations. A key challenge, however,
+                    is creating a reliable system to manage the intake and discharge of liquid electrolytes. This
+                    project aims to develop a specialized refueling module for these robotic fish. The system
+                    features a single motor-driven pump, managed by an Arduino microcontroller, to accurately
+                    control liquid fuel transfer. It is designed to be buoyant, modular for easy attachment, and
+                    manufactured using lightweight, customizable 3D printing.</p>
+            </div>
+            <div class="row">
+                <div class="image">
+                    <img src="img/robotics-2.jpg" alt="Organic Robotics Lab">
+                    <label>The head of the fish</label>
+                </div>
+                <div class="image">
+                    <img src="img/robotics-3.jpg" alt="Organic Robotics Lab">
+                    <label>The body of the fish</label>
+                </div>
+                <div class="image">
+                    <img src="img/robotics-4.jpg" alt="Organic Robotics Lab">
+                    <label>The tail of the fish</label>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="image">
-                <img src="img/robotics-2.jpg" width="300" height="200" alt="Organic Robotics Lab">
-                <label>The head of the fish</label>
-            </div>
-            <div class="image">
-                <img src="img/robotics-3.jpg" alt="Organic Robotics Lab">
-                <label>The body of the fish</label>
-            </div>
-            <div class="image">
-                <img src="img/robotics-4.jpg" alt="Organic Robotics Lab">
-                <label>The tail of the fish</label>
-            </div>
-        </div>
-    </div>
+    </main>
 </body>
+
 </html>

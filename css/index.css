@@ -13,7 +13,9 @@
 }
 .row.three-images img {
     width: 100%;
-    min-height: 150px;
+    height: auto;
+    max-height: 360px; /* prevent overly tall images while preserving aspect ratio */
+    object-fit: contain;
 }
 .row.three-images label {
     display: block;
@@ -83,16 +85,13 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 32px;
-    max-width: 900px;
-    width: 100%;
+    gap: 20px;
+    max-width: 60vw;
     margin-bottom: 1rem;
 }
 
 .profile-section img {
-    max-width: 300px;
-    width: 100%;
-    height: auto;
+    max-width: 20vw;
     object-fit: cover;
     overflow: hidden;
     border-radius: 8px;

@@ -2,7 +2,7 @@
 /* Shared layout for three-image rows */
 .row.three-images {
     justify-content: center;
-    align-items: flex-start;
+    align-items: center; /* align image centers vertically */
 }
 .row.three-images .image {
     flex: 1 1 0;
@@ -10,6 +10,9 @@
     box-sizing: border-box;
     padding: 10px;
     text-align: center;
+    display: flex;
+    align-items: center; /* center the image within the .image box */
+    justify-content: center;
 }
 .row.three-images img {
     width: 100%;

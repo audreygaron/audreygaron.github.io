@@ -140,6 +140,16 @@ h1 {
     padding-top: 0.5rem;
 }
 
+/* Override generic .image img rules for the three-images row so they keep their aspect ratio
+   and center alignment even though .image img appears later in the file. */
+.row.three-images .image img {
+    max-height: 360px;
+    height: auto;
+    object-fit: contain;
+    width: 100%;
+    display: block;
+}
+
 main {
     max-width: 75vw;
     margin: 0 auto;

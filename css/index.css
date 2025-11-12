@@ -181,3 +181,11 @@ img.large {
     padding: 1rem;
     text-align: justify;
 }
+
+.top-fish-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; /* ensures the whole image is visible */
+    margin: 0 auto;
+}
